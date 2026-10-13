@@ -1,0 +1,5 @@
+Demo order Q-927. This is fictional test data.
+Quantity: 17 notebooks
+Price per notebook: 23.75
+Discount on the full order: 12 percent
+Currency: USD
