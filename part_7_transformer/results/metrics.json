@@ -1,0 +1,71 @@
+{
+  "seed": 7,
+  "steps": 600,
+  "context": 32,
+  "parameters": 15742,
+  "corpus_sha256": "b7bb1c7832544fee1414591f60e5ae5ad4e3a9fdf1d870d6197445683d156c82",
+  "preprocessing": "lowercase; contiguous 80/20 character split",
+  "train_tokens": 1437,
+  "validation_tokens": 360,
+  "validation_nll_before": 3.595797118176235,
+  "validation_nll": 2.4762429270940425,
+  "training_history": [
+    {
+      "step": 1,
+      "training_nll": 3.574723720550537
+    },
+    {
+      "step": 51,
+      "training_nll": 2.5537357330322266
+    },
+    {
+      "step": 101,
+      "training_nll": 2.2724266052246094
+    },
+    {
+      "step": 151,
+      "training_nll": 2.1555678844451904
+    },
+    {
+      "step": 201,
+      "training_nll": 2.094433069229126
+    },
+    {
+      "step": 251,
+      "training_nll": 1.9998202323913574
+    },
+    {
+      "step": 301,
+      "training_nll": 1.8905563354492188
+    },
+    {
+      "step": 351,
+      "training_nll": 1.794632077217102
+    },
+    {
+      "step": 401,
+      "training_nll": 1.8526197671890259
+    },
+    {
+      "step": 451,
+      "training_nll": 1.5979654788970947
+    },
+    {
+      "step": 501,
+      "training_nll": 1.668772578239441
+    },
+    {
+      "step": 551,
+      "training_nll": 1.462969422340393
+    },
+    {
+      "step": 600,
+      "training_nll": 1.4444072246551514
+    }
+  ],
+  "samples": [
+    "the lexdeld\nuerrntarls, bicts the ped-oand simimplt.\nthe wird growe beucter rimbiont hor.en a tr. taimer. the bries the grhe iees. aitt natidory fiidels. it gapresip redicoder w it numor. sult amples.\nthe ra\ntion.\nwar peredico gait sapipe maralicke aularnd the flower ger coredicw th lapion and similarl ",
+    "the eactels the natie ninprens and the flowilas. the modins.\ntt trevion and talize ecodiles.\nle nurivizat it faliels ries,e sast tumarng.\nwithe buird withe wer. issuuit rat ninbions the text. ittornine amb. the teation.\nthe iembesulus besde tal tr findir exas the valp.\ntion iet.\nthe hents the and sit tu",
+    "the sange genens.\nthe anot minns the compredicwor.\nwlwer wal burowalt itr the far flifidallcular charios fle genste twirdit th sesularns.\natten and theldeld. scte tr seena cormallimbe. the rind singaits impre rala, leat ps apionizas briatirs. th the reacanncompleto seesin. as pensurnto exam\ntilampls. a "
+  ]
+}
