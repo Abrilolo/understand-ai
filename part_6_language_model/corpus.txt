@@ -1,0 +1,20 @@
+The small bird flies above the green field. It sees a pipe and moves toward the gap.
+A neuron adds its weighted inputs and a bias. The activation changes the result.
+The learner predicts the next character. The teacher compares the prediction with the text.
+One hidden layer can combine simple boundaries. A single straight line cannot separate XOR.
+The blue flower has narrow petals. The red flower grows beside the quiet river.
+We train on examples and test on separate examples. A low training loss is not proof of generalization.
+The bird survives, the population changes, and the next generation tries again.
+The tokenizer turns text into numbers. The decoder turns those numbers back into text.
+An embedding gives each token a learned vector. Similar contexts can teach similar representations.
+Attention compares a query with keys and mixes the values using normalized scores.
+A causal model sees the past but cannot see the future. It predicts one next token at a time.
+The agent reads a local note and calls a calculator. The tools return evidence to the model.
+Learning changes parameters. Inference uses those parameters to make a prediction.
+The night is quiet and the morning is bright. A little bird waits beside the window.
+When the bird falls, it flaps its wings. When it rises, it waits for the next opening.
+We record the seed and the settings. We compare results on the same held-out examples.
+The network is small, but each number has a meaning. We can inspect its weights and activations.
+The story begins with a neuron and ends with an agent. Each experiment raises another question.
+New flowers grow beside the field. The bird crosses the river and returns to the green tree.
+The experiment ends when we measure the result. A careful explanation includes what did not work.

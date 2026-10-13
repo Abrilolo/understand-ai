@@ -1,0 +1,35 @@
+{
+  "seed": 7,
+  "epochs": 15,
+  "context": 4,
+  "corpus_sha256": "b7bb1c7832544fee1414591f60e5ae5ad4e3a9fdf1d870d6197445683d156c82",
+  "train_tokens": 1437,
+  "validation_tokens": 360,
+  "preprocessing": "lowercase; contiguous 80/20 character split",
+  "objective": "sum of squared errors on sigmoid scores",
+  "training_loss": [
+    1.0635794865088133,
+    0.9157484402209642,
+    0.8969373359012065,
+    0.8833100066305818,
+    0.8718785202326989,
+    0.862993893752937,
+    0.8546127075697144,
+    0.8451659154382013,
+    0.8376260428828748,
+    0.8307792646726794,
+    0.8256559000703981,
+    0.8178998602557466,
+    0.8124386721672424,
+    0.8078406547243763,
+    0.8039538409706048
+  ],
+  "validation_nll_before": 3.6782934413485595,
+  "validation_nll": 2.7334179123816718,
+  "bigram_validation_nll": 2.484428829644798,
+  "samples": [
+    "the nitinidges gasl wunn  oaba liscngln yyrnce ares us\nathuaaniaalwr ha.rane ter mddvs thern wgare aan neeulns atraaruaus. a.vardreg tahesd th cn cin. txlrk  .trw phldz..othenteptresongane tyronlnbr t nhemint  hiactles tfistteg.anrnlug neamneetxia,s tilt an te .ongestkala locanllmonmt,sg lns tslunidmtio",
+    "the niob iescnllan t.papeit .tn wt lcin s asaine ,owxth pocanerd the ner rcp eir.baheueuath ss doha .ixzn its. nhe trces theihe siath, xlouureltre lon ttrrs.mh eitpniarn dhara.aslith lnarabet\naidd the nis psoannarnuirglhe iael .reulits aores relilis dewn tslaraasn t,e dare bhrh oneemtinen. snatisetoleni",
+    "the hiot aceo.eagesb gatrnoouras tilin. towner thc nenilan daiast ot arricittras tcunoinmnaqe atac omn ge. zahciamlr inwnbog nsl.mtgelce lan ti the ien tcrali amlty nards. \nct ingrasiths nist anre tha .n.otznaothbn ezeati\n leuasp yon nticha,n te thpfnoendcu tgra.iteebao ere. thrn ttroonged th rngotaren."
+  ]
+}
