@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 590" role="img" aria-labelledby="title description">
+  <title id="title">Understand AI module dependencies</title>
+  <desc id="description">Actual Python imports between project parts. Part I is reused by Parts III, IV, and VI. Part V is reused by Part VI. Part VI supplies the corpus loader to Part VII. Part VIII is standalone. Part II is maintained in a separate repository.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#60a5fa"/>
+    </marker>
+    <style>
+      .background { fill: #0b1220; }
+      .heading { fill: #f8fafc; font: 700 22px "Segoe UI", Arial, sans-serif; }
+      .description { fill: #94a3b8; font: 13px "Segoe UI", Arial, sans-serif; }
+      .card { fill: #111c2e; stroke: #355176; stroke-width: 1.5; }
+      .independent { stroke: #64748b; }
+      .part { fill: #f8fafc; font: 700 16px "Segoe UI", Arial, sans-serif; }
+      .detail { fill: #b6c4d8; font: 12px "Segoe UI", Arial, sans-serif; }
+      .edge { fill: none; stroke: #60a5fa; stroke-width: 2; marker-end: url(#arrow); }
+      .legend { fill: #cbd5e1; font: 12px "Segoe UI", Arial, sans-serif; }
+      .footnote { fill: #94a3b8; font: 12px "Segoe UI", Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <rect class="background" width="1100" height="590" rx="16"/>
+
+  <text class="heading" x="48" y="48">How the modules connect</text>
+  <text class="description" x="48" y="73">Dependencies derived from the repository's Python imports</text>
+
+  <g aria-label="Dependency edges">
+    <path class="edge" d="M316 173 C366 173 372 146 430 146"/>
+    <path class="edge" d="M316 184 C374 184 370 256 430 256"/>
+    <path class="edge" d="M316 197 C375 197 368 386 430 386"/>
+    <path class="edge" d="M316 386 C366 386 372 386 430 386"/>
+    <path class="edge" d="M706 386 C756 386 758 386 810 386"/>
+  </g>
+
+  <g aria-label="Part I foundations">
+    <rect class="card" x="48" y="140" width="268" height="72" rx="10"/>
+    <text class="part" x="68" y="169">Part I · Foundations</text>
+    <text class="detail" x="68" y="191">neural_network.py · NeuralNetwork</text>
+  </g>
+
+  <g aria-label="Part V tokenizer">
+    <rect class="card" x="48" y="350" width="268" height="72" rx="10"/>
+    <text class="part" x="68" y="379">Part V · Tokenizer</text>
+    <text class="detail" x="68" y="401">tokenizer.py · CharacterTokenizer</text>
+  </g>
+
+  <g aria-label="Part III visualizer">
+    <rect class="card" x="430" y="110" width="276" height="72" rx="10"/>
+    <text class="part" x="450" y="139">Part III · Visualizer</text>
+    <text class="detail" x="450" y="161">visualize.py · live network view</text>
+  </g>
+
+  <g aria-label="Part IV tensors">
+    <rect class="card" x="430" y="220" width="276" height="72" rx="10"/>
+    <text class="part" x="450" y="249">Part IV · Tensors</text>
+    <text class="detail" x="450" y="271">benchmark.py · Python vs. PyTorch</text>
+  </g>
+
+  <g aria-label="Part VI language model">
+    <rect class="card" x="430" y="350" width="276" height="72" rx="10"/>
+    <text class="part" x="450" y="379">Part VI · Language model</text>
+    <text class="detail" x="450" y="401">language_model.py · next character</text>
+  </g>
+
+  <g aria-label="Part VII transformer">
+    <rect class="card" x="810" y="350" width="242" height="72" rx="10"/>
+    <text class="part" x="830" y="379">Part VII · Transformer</text>
+    <text class="detail" x="830" y="401">reuses Part VI's corpus loader</text>
+  </g>
+
+  <g aria-label="Part VIII standalone agent">
+    <rect class="card independent" x="810" y="465" width="242" height="72" rx="10"/>
+    <text class="part" x="830" y="494">Part VIII · Agent</text>
+    <text class="detail" x="830" y="516">agent.py · standalone</text>
+  </g>
+
+  <path d="M50 475 H82" class="edge"/>
+  <text class="legend" x="94" y="479">imports / code reuse</text>
+
+  <rect x="48" y="510" width="14" height="14" rx="3" fill="#111c2e" stroke="#64748b" stroke-width="1.5"/>
+  <text class="legend" x="74" y="522">standalone module</text>
+  <text class="footnote" x="48" y="565">Part II lives in the separate evolutionary-ai-games repository.</text>
+</svg>
